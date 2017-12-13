@@ -1,0 +1,34 @@
+This project is written by Tianchang Gu for the course project Color Segmentation and Barrel Detection.
+
+###steps to run###
+1. edit folder path in main.py 
+	folder = "testset"
+2. change direction to current path and run
+	python main.py
+3. press any key to continue when an image pops up
+
+###special library requirements###
+cv2, numpy, pickle, PIL, pylab, matplotlib
+python2.7
+
+###folder contents###
+There are three class files for Gaussian model, linear regression model, and color class.
+	GaussianModels.py
+	LinearRegressionDistanceModel.py
+	ColorClass.py
+
+There is one library for the cleaness of the code.
+	Helper.py
+
+There are three scripts for training, classification, build dist model.
+	training.py
+	classification.py
+	BuildDistModel.py
+
+There are two pickle files for storing Gaussian model and linear regression model.
+	classify_model
+	dist_model
+
+There is a cache image for storing image mask temporarily
+	cache_classified.jpeg
+
